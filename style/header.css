@@ -142,10 +142,6 @@
     display: none;
 }
 
-.header-main__icons-favorite.is-end {
-    padding-right: 0;
-}
-
 @media screen and (min-width: 576px) {
     .header-main__nav-icon.is-heart{
         display: block;
