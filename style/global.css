@@ -14,8 +14,9 @@ img{
 }
 
 .container{
-    max-width: 1360px;
+    max-width: 1400px;
     margin: auto;
+    padding: 0 20px;
 }
 
 a{

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/global.css">
     <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/banner.css">
     <link rel="stylesheet" type="text/css" href="style/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +26,18 @@
         <div class="header-main__bottom">
             <div class="container">
                 <div class="header-main__bottom-inner">
+                    <div class="header-main__nav">
+                        <div class="header-main__nav-icon">
+                            <a href="#" class="header-main__nav-icon-link btn hamburger">
+                                <img src="images/menu.svg">
+                            </a>
+                        </div>
+                        <div class="header-main__nav-icon is-heart">
+                            <a href="#" class="header-main__nav-icon-link btn favorite">
+                                <img src="images/Vector.svg">
+                            </a>
+                        </div>
+                    </div>
                     <div class="header-main__logo">
                         <a href="#" class="header-main__logo-link">
                             <img src="images/Vector.png" alt="icon">
@@ -62,25 +75,52 @@
                         <form class="header-main__search-form">
                             <input type="text" value="Finden..." class="header-main__form-input">
                             <button class="header-main__form-btn">
-                            <img src="images/search.svg" class="header-main__search-icon" alt="icon">
+                                <img src="images/search.svg" class="header-main__search-icon" alt="icon">
                             </button>
                         </form>
                     </div>
                     <div class="header-main__icons">
-                        <a href="#" class="header-main__icons-favorite">
-                            <img src="images/Vector.svg">
-                        </a>
-                        <a href="#" class="header-main__icons-favorite">
-                            <img src="images/User.svg">
-                        </a>
-                        <a href="#" class="header-main__icons-favorite">
-                            <img src="images/Union.svg">
-                        </a>
+                        <div class="header-main__icons-icon is-first">
+                            <a href="#" class="header-main__icons-favorite btn">
+                                <img src="images/search.svg">
+                            </a>
+                        </div>
+                        <div class="header-main__icons-icon is-second">
+                            <a href="#" class="header-main__icons-favorite btn">
+                                <img src="images/Vector.svg">
+                            </a>
+                        </div>
+                        <div class="header-main__icons-icon is-third">
+                            <a href="#" class="header-main__icons-favorite btn">
+                                <img src="images/User.svg">
+                            </a>
+                        </div>
+                        <div class="header-main__icons-icon is-forth">
+                            <a href="#" class="header-main__icons-favorite btn is-end">
+                                <img src="images/Union.svg">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <div class="content-main">
+        <section class="section-banner">
+            <div class="section-banner__content">
+                <h1 class="section-banner__title">Dein BH, dein Weg</h1>
+                <div class="section-banner__buttons">
+                    <a href="#" class="section-banner__button is-left">
+                        Sammlung anzeigen
+                        <img src="images/Frame 91.svg">
+                    </a>
+                    <a href="#" class="section-banner__button is-right">
+                        Finde meine
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 </body>
 </html>

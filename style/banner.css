@@ -1,0 +1,60 @@
+.section-banner {
+    background-image: url("../images/Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 662px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-banner__title {
+    font-family: 'Inter-regular', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 16px 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.section-banner__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.section-banner__button {
+    padding: 11px 16px;
+    text-decoration: none;
+    font-family: 'Inter-regular', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.section-banner__button.is-left {
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+
+.section-banner__button.is-right {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-left: 16px;
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .section-banner__title {
+        font-size: 48px;
+        margin: 0 0 32px 0;
+    }
+    .section-banner__button.is-right {
+        display: block;
+    }
+}
