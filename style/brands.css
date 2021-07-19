@@ -12,28 +12,18 @@
     color: #000000;
     text-align: left;
     margin: 0 0 48px 0;
+    padding: 0 68px 0 0;
 }
 
 .section-brands__items {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-wrap: nowrap;*/
     margin: -8px 0 0 -8px;
 }
 
 .section-brands__item{
     padding: 8px 0 0 8px;
-}
-
-.controls{
-    display: flex;
-    position: absolute;
-    top: 7px;
-    right: 0;
-}
-
-.prev{
-    padding-right: 28px;
 }
 
 @media screen and (min-width: 576px){
