@@ -4,9 +4,12 @@
     <title>ENAMORA</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <link rel="stylesheet" type="text/css" href="style/global.css">
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/banner.css">
+    <link rel="stylesheet" type="text/css" href="style/users.css">
     <link rel="stylesheet" type="text/css" href="style/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -118,6 +121,102 @@
                         <a href="#" class="section-banner__button is-right">
                             Finde meine
                         </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-users">
+            <div class="container">
+                <div class="section-users__inner">
+                    <h2 class="section-users__title">Bei Influencer einkaufen</h2>
+                    <div class="section-users__slider">
+                        <div class="controls" id="influencer-slider-controls" aria-label="Carousel Navigation" tabindex="0">
+                            <div class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+                                <img src="./images/Vector-left.svg" alt="">
+                            </div>
+                            <div class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+                                <img src="./images/Vector-right.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-users__items" id="influencer-slider">
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse1.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Jules SchönWild</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@schonwild</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse2.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Falicity Haward</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@felicityhayward</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse3.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Alex Michaelmay</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@alexmicchaelmay</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse4.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Charlotte Khurt</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@charlottekurt</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse5.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Verena Prechtl</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@ms_wunderbar</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse1.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Charlotte Khurt</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@charlottekurt</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse2.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Jules SchönWild</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@schonwild</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -297,5 +396,29 @@
         </div>
     </footer>
 </div>
+<script>
+    var slider = tns({
+        container: '#influencer-slider',
+        "items": 2,
+        nav: false,
+        prevButton: '#prev',
+        controlsContainer: "#influencer-slider-controls",
+        "responsive": {
+            "375": {
+                "items": 2.3,
+            },
+            "576": {
+                "items": 3.3,
+            },
+            "768": {
+                "items": 4.5,
+            },
+            "1200": {
+                "items": 7
+            }
+        },
+    });
+
+</script>
 </body>
 </html>
