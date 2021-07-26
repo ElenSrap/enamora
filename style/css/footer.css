@@ -193,45 +193,57 @@
          flex-wrap: nowrap;
          padding: 62px 0 53px 0;
      }
+
      .footer-top__item {
          width: 25%;
          border-bottom: 0;
      }
+
      .footer-top__item.is-first{
          margin-right: 136px;
          margin-bottom: 0;
      }
+
      .footer-top__item.is-second{
          border-top: 0;
      }
+
      .footer-top__item-title {
          margin: 0 0 15px 0;
      }
+
      .footer-top__item-social{
          margin-top: 38px;
          display: block;
      }
+
      .footer-top__item-social.is-small{
          display: none;
      }
+
      .footer-top__item-list{
          display: block;
      }
+
      .footer-bottom{
          flex-wrap: nowrap;
          padding: 30px 0 30px 0;
      }
+
      .footer-bottom__item{
          width: 33.333%;
          padding-bottom: 0;
      }
+
      .footer-bottom__item.is-second{
          width: 22%;
          padding-bottom: 0;
      }
+
      .footer-bottom__item-image{
          margin-right: 16px;
      }
+
      .footer-top__item-arrow-link{
          display: none;
      }
