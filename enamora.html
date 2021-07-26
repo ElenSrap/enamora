@@ -4,10 +4,22 @@
     <title>ENAMORA</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="style/css/global.css">
     <link rel="stylesheet" type="text/css" href="style/css/header.css">
     <link rel="stylesheet" type="text/css" href="style/css/banner.css">
     <link rel="stylesheet" type="text/css" href="style/css/footer.css">
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/global.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/banner.css">
+    <link rel="stylesheet" type="text/css" href="style/users.css">
+    <link rel="stylesheet" type="text/css" href="style/brands.css">
+    <link rel="stylesheet" type="text/css" href="style/categories.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+>>>>>>> b6473c2e3184851a0abd4945c92919eccd6dd848
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -122,24 +134,294 @@
                 </div>
             </div>
         </section>
-    </div>
-    <footer class="footer-main">
-        <div class="container">
-            <div class="footer-main__inner">
-                <div class="footer-top">
-                    <div class="footer-top__item is-first">
-                        <div class="footer-top__item-contact">
-                            <h4 class="footer-top__contact-title">Den Kontakt halten</h4>
-                            <p class="footer-top__contact-text">Unser Gespräch fängt gerade erst an</p>
-                            <form class="footer-top__contact-form">
-                                <input type="text" placeholder="Ihre E-Mail hier" class="footer-top__form-input">
-                                <button class="footer-top__form-btn">
-                                    <img src="images/Chevron_right.svg" class="footer-top__form-btn-img">
-                                </button>
-                            </form>
-                            <p class="footer-top__contact-little-text">Abmelden jederzeit!</p>
+        <section class="section-users">
+            <div class="container">
+                <div class="section-users__inner">
+                    <h2 class="section-users__title">Bei Influencer einkaufen</h2>
+                    <div class="section-users__slider">
+                        <div class="controls" id="influencer-slider-controls" aria-label="Carousel Navigation"
+                             tabindex="0">
+                            <div class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+                                <img src="./images/Vector-left.svg" alt="">
+                            </div>
+                            <div class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+                                <img src="./images/Vector-right.svg" alt="">
+                            </div>
                         </div>
-                        <div class="footer-top__item-social">
+                        <div class="section-users__items" id="influencer-slider">
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse1.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Jules SchönWild</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@schonwild</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse2.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Falicity Haward</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@felicityhayward</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse3.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Alex Michaelmay</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@alexmicchaelmay</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse4.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Charlotte Khurt</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@charlottekurt</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse5.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Verena Prechtl</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@ms_wunderbar</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse1.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Charlotte Khurt</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@charlottekurt</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="section-users__item">
+                                <div class="section-users__item-content">
+                                    <a class="section-users__content-img-link" href="#">
+                                        <img src="images/Ellipse2.png" class="section-users__content-img">
+                                    </a>
+                                    <h4 class="section-users__content-title">Jules SchönWild</h4>
+                                    <a class="section-users__content-username-link" href="#">
+                                        <p class="section-users__content-username">@schonwild</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-brands">
+            <div class="container">
+                <div class="section-brands__inner">
+                    <h2 class="section-brands__title">Unsere Lieblingsmarken</h2>
+                    <div class="section-users__slider">
+                        <div class="controls" id="lieblingsmarken-slider-controls" aria-label="Carousel Navigation"
+                             tabindex="0">
+                            <div class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+                                <img src="./images/Vector-left.svg" alt="">
+                            </div>
+                            <div class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+                                <img src="./images/Vector-right.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-brands__items" id="lieblingsmarken-slider">
+                            <div class="section-brands__item">
+                                <a class="section-brands__image-link">
+                                    <img src="images/Brand1.svg" class="section-brands__image">
+                                </a>
+                            </div>
+                            <div class="section-brands__item">
+                                <a class="section-brands__image-link">
+                                    <img src="images/Brand2.svg" class="section-brands__image">
+                                </a>
+                            </div>
+                            <div class="section-brands__item">
+                                <a class="section-brands__image-link">
+                                    <img src="images/Brand3.svg" class="section-brands__image">
+                                </a>
+                            </div>
+                            <div class="section-brands__item">
+                                <a class="section-brands__image-link">
+                                    <img src="images/Brand4.svg" class="section-brands__image">
+                                </a>
+                            </div>
+                            <div class="section-brands__item">
+                                <a class="section-brands__image-link">
+                                    <img src="images/Brand5.svg" class="section-brands__image">
+                                </a>
+                            </div>
+                            <div class="section-brands__item">
+                                <a class="section-brands__image-link">
+                                    <img src="images/Brand6.svg" class="section-brands__image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-categories">
+
+        </section>
+        <footer class="footer-main">
+            <div class="container">
+                <div class="footer-main__inner">
+                    <div class="footer-top">
+                        <div class="footer-top__item is-first">
+                            <div class="footer-top__item-contact">
+                                <h4 class="footer-top__contact-title">Den Kontakt halten</h4>
+                                <p class="footer-top__contact-text">Unser Gespräch fängt gerade erst an</p>
+                                <form class="footer-top__contact-form">
+                                    <input type="text" placeholder="Ihre E-Mail hier" class="footer-top__form-input">
+                                    <button class="footer-top__form-btn">
+                                        <img src="images/Chevron_right.svg" class="footer-top__form-btn-img">
+                                    </button>
+                                </form>
+                                <p class="footer-top__contact-little-text">Abmelden jederzeit!</p>
+                            </div>
+                            <div class="footer-top__item-social">
+                                <h4 class="footer-top__social-title">Sozial</h4>
+                                <a class="footer-top__social-link" href="#">
+                                    <img src="images/Facebook.svg">
+                                </a>
+                                <a class="footer-top__social-link" href="#">
+                                    <img src="images/Instagram.svg" href="#">
+                                </a>
+                                <a class="footer-top__social-link" href="#">
+                                    <img src="images/Google.svg">
+                                </a>
+                                <a class="footer-top__social-link" href="#">
+                                    <img src="images/Group.svg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-top__item is-second">
+                            <h4 class="footer-top__item-title">Top Marken</h4>
+                            <a href="#" class="footer-top__item-arrow-link">
+                                <img src="images/Vector 2.png">
+                            </a>
+                            <ul class="footer-top__item-list">
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Ladies</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Passionata</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Chantelle</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Triumph</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Calvin Klein</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Spanx</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Palmers</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Freya</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Skiny</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__item">
+                            <h4 class="footer-top__item-title">Top Kategorien</h4>
+                            <a href="#" class="footer-top__item-arrow-link">
+                                <img src="images/Vector 2.png">
+                            </a>
+                            <ul class="footer-top__item-list">
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Dessous</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Unterwäsche</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Umstandsmode</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Große Größen</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Reizwäsche</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Bademode</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Nachtwäsche</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Shapewear</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Sportbekleidung</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__item">
+                            <h4 class="footer-top__item-title">Information</h4>
+                            <a href="#" class="footer-top__item-arrow-link">
+                                <img src="images/Vector 2.png">
+                            </a>
+                            <ul class="footer-top__item-list">
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Bedingungen</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Impressum</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Datenschutz</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Kontakt</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Newsletter</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Partnerprogramm</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Hilfe</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Dessous-Wörterbuch</a>
+                                </li>
+                                <li class="footer-top__list-item">
+                                    <a href="#" class="footer-top__list-item-link">Zeitschrift</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-top__item-social is-small">
                             <h4 class="footer-top__social-title">Sozial</h4>
                             <a class="footer-top__social-link" href="#">
                                 <img src="images/Facebook.svg">
@@ -155,147 +437,73 @@
                             </a>
                         </div>
                     </div>
-                    <div class="footer-top__item is-second">
-                        <h4 class="footer-top__item-title">Top Marken</h4>
-                        <a href="#" class="footer-top__item-arrow-link">
-                            <img src="images/Vector 2.png">
-                        </a>
-                        <ul class="footer-top__item-list">
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Ladies</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Passionata</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Chantelle</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Triumph</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Calvin Klein</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Spanx</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Palmers</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Freya</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Skiny</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-top__item">
-                        <h4 class="footer-top__item-title">Top Kategorien</h4>
-                        <a href="#" class="footer-top__item-arrow-link">
-                            <img src="images/Vector 2.png">
-                        </a>
-                        <ul class="footer-top__item-list">
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Dessous</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Unterwäsche</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Umstandsmode</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Große Größen</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Reizwäsche</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Bademode</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Nachtwäsche</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Shapewear</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Sportbekleidung</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-top__item">
-                        <h4 class="footer-top__item-title">Information</h4>
-                        <a href="#" class="footer-top__item-arrow-link">
-                            <img src="images/Vector 2.png">
-                        </a>
-                        <ul class="footer-top__item-list">
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Bedingungen</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Impressum</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Datenschutz</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Kontakt</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Newsletter</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Partnerprogramm</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Hilfe</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Dessous-Wörterbuch</a>
-                            </li>
-                            <li class="footer-top__list-item">
-                                <a href="#" class="footer-top__list-item-link">Zeitschrift</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-top__item-social is-small">
-                        <h4 class="footer-top__social-title">Sozial</h4>
-                        <a class="footer-top__social-link" href="#">
-                            <img src="images/Facebook.svg">
-                        </a>
-                        <a class="footer-top__social-link" href="#">
-                            <img src="images/Instagram.svg" href="#">
-                        </a>
-                        <a class="footer-top__social-link" href="#">
-                            <img src="images/Google.svg">
-                        </a>
-                        <a class="footer-top__social-link" href="#">
-                            <img src="images/Group.svg">
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="footer-bottom__item">
-                        <img src="images/PayPal.svg" class="footer-bottom__item-image">
-                        <img src="images/Visa.svg" class="footer-bottom__item-image">
-                        <img src="images/Maestro.svg" class="footer-bottom__item-image">
-                        <img src="images/Pay.svg" class="footer-bottom__item-image">
-                    </div>
-                    <div class="footer-bottom__item is-second">
-                        <img src="images/guarantee.svg" class="footer-bottom__item-image">
-                        <img src="images/dhl.svg" class="footer-bottom__item-image">
-                    </div>
-                    <div class="footer-bottom__item">
-                        <p class="footer-bottom__item-text">* Gilt innerhalb von Deutschland. Erfahren Sie hier mehr.
-                            <br>** Nicht kombinierbar mit anderen Aktionen oder Gutscheinen. Gilt nicht auf
-                            Geschenkgutscheine und bereits reduzierte Ware.</p>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom__item">
+                            <img src="images/PayPal.svg" class="footer-bottom__item-image">
+                            <img src="images/Visa.svg" class="footer-bottom__item-image">
+                            <img src="images/Maestro.svg" class="footer-bottom__item-image">
+                            <img src="images/Pay.svg" class="footer-bottom__item-image">
+                        </div>
+                        <div class="footer-bottom__item is-second">
+                            <img src="images/guarantee.svg" class="footer-bottom__item-image">
+                            <img src="images/dhl.svg" class="footer-bottom__item-image">
+                        </div>
+                        <div class="footer-bottom__item">
+                            <p class="footer-bottom__item-text">* Gilt innerhalb von Deutschland. Erfahren Sie hier
+                                mehr.
+                                <br>** Nicht kombinierbar mit anderen Aktionen oder Gutscheinen. Gilt nicht auf
+                                Geschenkgutscheine und bereits reduzierte Ware.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
+    <script>
+        var slider = tns({
+            container: '#influencer-slider',
+            "items": 2,
+            nav: false,
+            prevButton: '#prev',
+            controlsContainer: "#influencer-slider-controls",
+            "responsive": {
+                "375": {
+                    "items": 2.3,
+                },
+                "576": {
+                    "items": 3.3,
+                },
+                "768": {
+                    "items": 4.5,
+                },
+                "1200": {
+                    "items": 7
+                }
+            },
+        });
+
+        var slider = tns({
+            container: '#lieblingsmarken-slider',
+            "items": 1.8,
+            nav: false,
+            prevButton: '#prev',
+            controlsContainer: "#lieblingsmarken-slider-controls",
+            "responsive": {
+                "375": {
+                    "items": 2.3,
+                },
+                "576": {
+                    "items": 3.3,
+                },
+                "768": {
+                    "items": 4.5,
+                },
+                "1200": {
+                    "items": 6,
+                }
+            },
+        });
+
+    </script>
 </body>
 </html>
