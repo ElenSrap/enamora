@@ -1,0 +1,16 @@
+
+.controls{
+  display: flex;
+  position: absolute;
+  top: 7px;
+  right: 0;
+
+  .prev{
+    padding-right: 28px;
+  }
+
+  img{
+    width: 20px;
+    height: 13px;
+  }
+}

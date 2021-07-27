@@ -1,0 +1,37 @@
+.section-brands{
+  padding: 60px 0;
+
+  &__inner{
+    position: relative;
+  }
+
+  &__title{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+    margin: 0 0 48px 0;
+    padding: 0 68px 0 0;
+  }
+
+  &__items {
+    margin: -8px 0 0 -8px;
+  }
+
+  &__item{
+    padding: 8px 0 0 8px;
+  }
+
+}
+
+@media screen and (min-width: 576px){
+  .section-brands{
+
+    &__title {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}

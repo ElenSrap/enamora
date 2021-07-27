@@ -1,4 +1,6 @@
-.section-banner__background{
+.section-banner{
+
+  &__background{
     background-image: url("../../images/Hero.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,9 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.section-banner__title {
+  &__title {
     font-family: 'Inter-regular', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -19,15 +21,15 @@
     margin: 0 0 16px 0;
     padding: 0;
     white-space: nowrap;
-}
+  }
 
-.section-banner__buttons {
+  &__buttons {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.section-banner__button {
+  &__button {
     padding: 11px 16px;
     text-decoration: none;
     font-family: 'Inter-regular', sans-serif;
@@ -36,36 +38,54 @@
     line-height: 21px;
     display: flex;
     align-items: center;
-}
 
-.section-banner__button.is-left {
-    background-color: #000000;
-    color: #FFFFFF;
+    &.is-left {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
 
-}
+    &.is-right {
+      background-color: #FFFFFF;
+      color: #000000;
+      margin-left: 16px;
+      display: none;
+    }
 
-.section-banner__button.is-right {
-    background-color: #FFFFFF;
-    color: #000000;
-    margin-left: 16px;
-    display: none;
+    img{
+      height: 21px;
+    }
+  }
+
 }
 
 @media screen and (min-width: 576px) {
-    .section-banner__title {
-        font-size: 48px;
-        margin: 0 0 32px 0;
+  .section-banner {
+
+    &__background {
+      height: 400px;
     }
-    .section-banner__button.is-right {
+
+    &__title {
+      font-size: 48px;
+      margin: 0 0 32px 0;
+    }
+
+    &__button {
+
+      &.is-right {
         display: block;
+      }
     }
-    .section-banner__background {
-        height: 400px;
-    }
+
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .section-banner__background {
-        height: 622px;
+  .section-banner{
+
+    &__background {
+      height: 622px;
     }
+
+  }
 }
