@@ -1,0 +1,145 @@
+.section-products {
+
+  &__inner {
+    padding: 60px 0 60px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: -32px 0 0 -32px;
+  }
+
+  &__product {
+    padding: 32px 0 0 32px;
+    width: 50%;
+
+    &.is-left{
+      width: 65%;
+    }
+
+  }
+
+  &__product-image {
+    position: relative;
+  }
+
+  &__product-pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__product-image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+  }
+
+  &__image-content-title {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #FFFFFF;
+    padding-bottom: 34px;
+  }
+
+  &__image-content-link {
+    text-decoration: none;
+    padding: 11px 16px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__content-text1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text1-content {
+    display: flex;
+  }
+
+  &__text1-content-text {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #605E5C;
+
+    &.is-opacity {
+      color: #000000;
+      opacity: 0.4;
+      padding-right: 4px;
+    }
+
+    &.is-black {
+      color: #000000;
+    }
+  }
+
+  &__content-text2-text {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  &__content-text3-text {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #A19F9D;
+    padding: 8px 0 8px 0;
+  }
+
+  &__content-text4-text {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8A8886;
+  }
+
+  &__product-items {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: -20px 0 0 -20px;
+
+    &.is-bottom{
+      padding-top: 17px;
+    }
+  }
+
+  &__product-item{
+    padding: 20px 0 0 20px;
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 992px){
+  .section-products {
+
+
+
+
+
+
+  }
+}
